@@ -1,10 +1,14 @@
 import express from "express";
 import config from "./config";
 // TODO: import router from routes/
+import router from "./routes";
+import userRoutes from "./routes";
 
 const app = express();
 
 app.use(express.json());
+
+app.use("/api", router);
 
 // TODO: use the imported router to handle all requests
 
