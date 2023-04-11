@@ -2,7 +2,7 @@ import express from "express";
 import config from "./config";
 // TODO: import router from routes/
 import router from "./routes";
-import userRoutes from "./routes";
+
 
 const app = express();
 
